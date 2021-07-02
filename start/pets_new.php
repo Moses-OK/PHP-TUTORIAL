@@ -35,23 +35,28 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 if(isset($_POST['name'])){
     $name =$_POST['name'];
 }else{
+   
     $name='';
 }
 
 if(isset($_POST['breed'])){
     $breed=$_POST['breed'];
 }else{
+   
     $breed ='';
 }
 if(isset($_POST['weight'])){
     $weight=$_POST['weight'];
 }else{
+   
     $weight ='';
 }
 if(isset($_POST['bio'])){ 
     $bio=$_POST['bio'];
 }else{
+   
     $bio ='';
+    
 }
 
 $pets =get_pets();
@@ -64,9 +69,9 @@ $newPet = array(
     'image' => '',
 );
 $pets[] =$newPet;
-$json = json_encode($pets , JSON_PRETTY_PRINT); 
-
-file_put_contents('data/pets.json',$json);
+save_pets($pets);
+//redirect code that prevents the user from resubmiting the form
+header('Location: index.php');
 //var_dump($name, $breed,$weight,$bio);
 }
 
