@@ -29,5 +29,29 @@
         "bio": "Treats and Snoozin!",
         "image": "pancake.png",
         "breed": "Bulldog"
+    },
+    {
+        "name": "Drake",
+        "breed": "German shepherd",
+        "weight": "115",
+        "bio": "This was Riley's first pet and he was the best pet ever in my entire life too.Since the dog had life,ill surely be faithful and true to the cause the dog had in our life.",
+        "age": "",
+        "image": ""
+    },
+    {
+        "name": "Rex",
+        "breed": "Japanese Pits",
+        "weight": "118",
+        "bio": "Since this is one of the most loved pets in the whole world then i believe that it should appear here too.",
+        "age": "",
+        "image": ""
+    },
+    {
+        "name": "Jack Daniel",
+        "breed": "Human",
+        "weight": "6",
+        "bio": "Since all men are dogs,then the biggest dog in the room is this guy.The Drink that gets the ladies feel you know what.hehe!",
+        "age": "",
+        "image": ""
     }
 ]
