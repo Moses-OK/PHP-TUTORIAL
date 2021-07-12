@@ -3,7 +3,7 @@
 
     require 'lib/functions.php';
 
-    $pets = get_pets();
+    $pets = get_pets(4);
 
     $pets = array_reverse($pets);
 
@@ -27,8 +27,9 @@
         <div class="row">
             <?php foreach ($pets as $cutePet) { ?>
                 <div class="col-lg-4 pet-list-item">
-                    <h2><?php echo $cutePet['name']; ?></h2>
-
+                  <a href="show.php?id=<?php echo $cutePet['id']; ?>">
+                  <h2><?php echo $cutePet['name']; ?></h2>
+                  </a>
                     <img src="images/<?php echo $cutePet['image']; ?>" class="img-rounded">
 
                     <blockquote class="pet-details">

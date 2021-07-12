@@ -19,3 +19,7 @@ INSERT INTO `pet`
     (`id`, `name`, `breed`, `age`, `weight`, `bio`, `image`)
     VALUES
     (4, 'Pancake', 'Bulldog', '1 year', 9, 'Treats and Snoozin!', 'pancake.png');
+INSERT INTO `pet`
+    (`id`, `name`, `breed`, `age`, `weight`, `bio`, `image`)
+    VALUES
+    (5, 'Pancake2', 'Bulldog2', '1 year', 9, 'Treats and Snoozin!', '235878.png');
